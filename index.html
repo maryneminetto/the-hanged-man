@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>HangedMan JS</title>
+    <script defer type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <h1>Guess the word before being hanged</h1>
+    <div class="container">
+      <div class="hangedMan">
+        <div class="poteau">
+          <div class="top"></div>
+          <div class="column"></div>
+          <div class="bottom"></div>
+        </div>
+        <div class="man">
+          <div class="rode"></div>
+          <div class="head"></div>
+          <div class="body"></div>
+          <div class="legs">
+            <div class="leftLeg"></div>
+            <div class="rightLeg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="word">
+        <h2>Suggested letters</h2>
+        <p id="suggLetter"></p>
+        <h2>Present letters</h2>
+        <div id="presentLetter"></div>
+        <input type="text" maxlength="1" placeholder="Enter your letter here" />
+        <p id="try"></p>
+      </div>
+    </div>
+    <div class="retry">
+      <h2 id="uLoose">Vous avez perdu!</h2>
+      <button>Rejouer</button>
+    </div>
+  </body>
+</html>
