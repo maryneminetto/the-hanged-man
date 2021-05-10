@@ -17,3 +17,7 @@ Creation d un jeu du pendu pour m exercer aux bases du JavaScript.
 - HTML
 - CSS (Vanilla)
 - JavaScript (Vanilla)
+
+### Bugs à fix
+
+- On ne peut pas gagner 😅
